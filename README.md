@@ -10,3 +10,18 @@ For general information on GPL licenses go [HERE](https://www.gnu.org/licenses/)
 - [C400 USB Controller bootloader](https://github.com/CassidaPro/XMegaForArduino/tree/master/bootloaders/USB_Controller)
 
 
+## Raspbian 'buster'
+
+The ZC4 system uses Raspbian 'buster' as its operating system and package
+source for instaled GPL software.  Indexes for package source and binaries
+can be found in the following online repositories:
+- [raspbian.raspberrypi.org](http://raspbian.raspberrypi.org/raspbian/dists/buster/)
+- [archive.raspbian.org](http://archive.raspbian.org/raspbian/dists/buster/)
+
+The index files contain lists of package files for source and binaries, and are used
+by the 'apt' package system to download source and install binaries.  General instructions
+for using the 'apt' package system to obtain and build source can be found here:
+
+&nbsp;&nbsp;[Debian Wiki - Building Tutorial](https://wiki.debian.org/BuildingTutorial)
+
+
