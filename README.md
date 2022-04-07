@@ -9,7 +9,7 @@ For general information on GPL licenses go [HERE](https://www.gnu.org/licenses/)
 
 - [C400 USB Controller bootloader](https://github.com/CassidaPro/XMegaForArduino/tree/master/bootloaders/USB_Controller)
 
-- [lightdm - Split Recycler]{lightdm.source.txz)
+- [lightdm for Split Recycler]{https://cassidapro.github.io/lightdm.source.txz)
 The 'lightdm' program controls the GUI and login sessions for Raspberry Pi OS.
 This version corrects some problems that have been observed with auto-login,
 and is ahead of the version currently being distributed by Raspbian and 
