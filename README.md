@@ -36,23 +36,26 @@ for using the 'apt' package system to obtain and build source can be found here:
 
 <font style="color:#000000">The Tinkerboard systems use a slightly modified kernel from the release version
 <br>
-Debian, Devuan, Ubuntu, Mint Linux:  Prerequisite Packages<br>
-<samp>
-  apt-get install build-essential module-assistant mtools libssl-dev liblz4-tool
-  apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu
-</samp>
+<b>Debian, Devuan, Ubuntu, Mint Linux:  Prerequisite Packages</b><br>
+</font>
+- apt-get install build-essential module-assistant mtools libssl-dev liblz4-tool
+- apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu
 <br>
-Extract source<br>
-<samp>
-  tar -xJ -f linux-kernel-4.4.194.txz
-</samp>
+<font style="color:#000000">
+<br>
+<b>Extract source</b><br>
+</font>
+- tar -xJ -f linux-kernel-4.4.194.txz
+<br>
+<font style="color:#000000">
 <br>
 <b>Build Instructions:</b><br>
-<samp>
-  cd linux-kernel-4.4.194
-  make ARCH=arm64 oldconfig
-  make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8
-<samp>
+</font>
+- cd linux-kernel-4.4.194
+- make ARCH=arm64 oldconfig
+- make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8
+<br>
+<font style="color:#000000">
 <br>
 for installation see TinkerBoard docs<br>
 <br>
