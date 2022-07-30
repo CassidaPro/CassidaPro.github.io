@@ -12,7 +12,7 @@ For general information on GPL licenses go [HERE](https://www.gnu.org/licenses/)
 - [lightdm for Split Recycler](https://cassidapro.github.io/lightdm.source.txz)<br><font style="color:#000000">
 The 'lightdm' program controls the GUI and login sessions for Raspberry Pi OS.
 This version corrects some problems that have been observed with auto-login,
-and is ahead of the version currently being distributed by Raspbian and 
+and is ahead of the version currently being distributed by Raspbian and
 Raspberry Pi OS.  The modified source is being made available for GPL compliance.</font>
 
 
@@ -29,5 +29,26 @@ by the 'apt' package system to download source and install binaries.  General in
 for using the 'apt' package system to obtain and build source can be found here:
 
 &nbsp;&nbsp;[Debian Wiki - Building Tutorial](https://wiki.debian.org/BuildingTutorial)
+</font>
+
+## Tinkerboard kernel source
+<font style="color:#000000">The Tinkerboard systems use a slightly modified kernel from the release version
+
+Debian, Devuan, Ubuntu, Mint Linux:  Prerequisite Packages
+&nbsp;&nbsp;apt-get install build-essential module-assistant
+&nbsp;&nbsp;apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu mtools libssl-dev
+
+Extract source
+&nbsp;&nbsp;tar -xJ -f linux-kernel-4.4.194.txz
+Build Instructions:
+
+&nbsp;&nbsp;cd linux-kernel-4.4.194
+&nbsp;&nbsp;make ARCH=arm64 oldconfig
+&nbsp;&nbsp;make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8
+
+for installation see TinkerBoard docs
+
+&nbsp;&nbsp;[Tinkerboard Kernel Source](http://cassidatest.mrp3.com/linux-kernel-4.4.194.txz)
+&nbsp;&nbsp;[Additional Build Information](https://github.com/TinkerBoard/TinkerBoard/wiki/Developer-Guide#changing-the-boot-logo)
 </font>
 
