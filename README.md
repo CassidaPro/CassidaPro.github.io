@@ -34,29 +34,26 @@ for using the 'apt' package system to obtain and build source can be found here:
 
 ## Tinkerboard kernel source
 
-<font style="color:#000000">The Tinkerboard systems use a slightly modified kernel from the release version
+<font style="color:#000000">The Tinkerboard systems use a slightly modified kernel from the release version<br>
 <br>
 <b>Debian, Devuan, Ubuntu, Mint Linux:  Prerequisite Packages</b><br>
 </font>
-- apt-get install build-essential module-assistant mtools libssl-dev liblz4-tool
-- apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu
+- <font style="color:#000000">apt-get install build-essential module-assistant mtools libssl-dev liblz4-tool</font>
+- <font style="color:#000000">apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu</font>
 <br>
 <font style="color:#000000">
-<br>
 <b>Extract source</b><br>
 </font>
-- tar -xJ -f linux-kernel-4.4.194.txz
+- <font style="color:#000000">tar -xJ -f linux-kernel-4.4.194.txz</font>
 <br>
 <font style="color:#000000">
-<br>
 <b>Build Instructions:</b><br>
 </font>
-- cd linux-kernel-4.4.194
-- make ARCH=arm64 oldconfig
-- make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8
+- <font style="color:#000000">cd linux-kernel-4.4.194</font>
+- <font style="color:#000000">make ARCH=arm64 oldconfig</font>
+- <font style="color:#000000">make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8</font>
 <br>
 <font style="color:#000000">
-<br>
 for installation see TinkerBoard docs<br>
 <br>
 <b>Additional resources</b><br>
