@@ -36,7 +36,7 @@ for using the 'apt' package system to obtain and build source can be found here:
 
 Debian, Devuan, Ubuntu, Mint Linux:  Prerequisite Packages
 &nbsp;&nbsp;apt-get install build-essential module-assistant
-&nbsp;&nbsp;apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu mtools libssl-dev
+&nbsp;&nbsp;apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu mtools libssl-dev liblz4-tool
 
 Extract source
 &nbsp;&nbsp;tar -xJ -f linux-kernel-4.4.194.txz
