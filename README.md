@@ -37,20 +37,27 @@ for using the 'apt' package system to obtain and build source can be found here:
 <font style="color:#000000">The Tinkerboard systems use a slightly modified kernel from the release version
 <br>
 Debian, Devuan, Ubuntu, Mint Linux:  Prerequisite Packages<br>
-&nbsp;&nbsp;apt-get install build-essential module-assistant
-&nbsp;&nbsp;apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu mtools libssl-dev liblz4-tool
+<samp>
+  apt-get install build-essential module-assistant mtools libssl-dev liblz4-tool
+  apt-get install gcc-arm-linux-gnueabihf device-tree-compiler gcc-aarch64-linux-gnu
+</samp>
 <br>
-Extract source
+Extract source<br>
+<samp>
+  tar -xJ -f linux-kernel-4.4.194.txz
+</samp>
 <br>
-&nbsp;&nbsp;tar -xJ -f linux-kernel-4.4.194.txz
-Build Instructions:
+<b>Build Instructions:</b><br>
+<samp>
+  cd linux-kernel-4.4.194
+  make ARCH=arm64 oldconfig
+  make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8
+<samp>
 <br>
-&nbsp;&nbsp;cd linux-kernel-4.4.194
-&nbsp;&nbsp;make ARCH=arm64 oldconfig
-&nbsp;&nbsp;make ARCH=arm64 rk3399-tinker_board_2.img CROSS_COMPILE=aarch64-linux-gnu- -j8
+for installation see TinkerBoard docs<br>
 <br>
-for installation see TinkerBoard docs
-<br></font>
+<b>Additional resources</b><br>
+</font>
 - [Tinkerboard Kernel Source](http://cassidatest.mrp3.com/linux-kernel-4.4.194.txz)
 - [Additional Build Information](https://github.com/TinkerBoard/TinkerBoard/wiki/Developer-Guide#changing-the-boot-logo)
 
