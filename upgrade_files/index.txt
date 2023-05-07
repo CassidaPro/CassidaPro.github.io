@@ -1,4 +1,4 @@
-RPi 20230505 0 Cassida_Skyy_Update.RPi.20230505.zip http://cassidapro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20230505.zip
-tinkerboard 20230505 0 Cassida_Skyy_Update.tinkerboard.20230505.zip http://cassidapro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20230505.zip
+RPi 20230505 0 Cassida_Skyy_Update.RPi.20230505.zip https://cassidapro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20230505.zip
+tinkerboard 20230505 0 Cassida_Skyy_Update.tinkerboard.20230505.zip https://cassidapro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20230505.zip
 
 
