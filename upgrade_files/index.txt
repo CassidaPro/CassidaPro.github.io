@@ -1,0 +1,4 @@
+RPi 20230505 0 Cassida_Skyy_Update.RPi.20230505.zip http://cassida.mrp3.com/Cassida_Skyy_Update.RPi.20230505.zip
+tinkerboard 20230505 0 Cassida_Skyy_Update.tinkerboard.20230505.zip http://cassida.mrp3.com/Cassida_Skyy_Update.tinkerboard.20230505.zip
+
+
