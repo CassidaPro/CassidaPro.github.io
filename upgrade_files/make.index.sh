@@ -7,7 +7,8 @@ for xx in *.txz ; do
   pp=`echo $yy | awk '{ print $2; }'`
   vv=`echo $yy | awk '{ print $3; }'`
 
-  echo $pp $vv $xx "https://CassidaPro.github.io/upgrade_files/"$xx >>index.txt
+  # for now ONLY customer mod 0
+  echo $pp $vv 0 $xx "https://CassidaPro.github.io/upgrade_files/"$xx >>index.txt
 
 done
 
