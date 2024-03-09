@@ -2,8 +2,8 @@ RPi 20230612 0 Cassida_Skyy_Update.RPi.20230612.txz https://CassidaPro.github.io
 RPi 20230724 0 Cassida_Skyy_Update.RPi.20230724.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20230724.txz
 RPi 20230814 0 Cassida_Skyy_Update.RPi.20230814.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20230814.txz
 RPi 20231023 0 Cassida_Skyy_Update.RPi.20231023.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20231023.txz
-RPi 20240307 0 Cassida_Skyy_Update.RPi.20240307.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20240307.txz
+RPi 20240309 0 Cassida_Skyy_Update.RPi.20240309.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.RPi.20240309.txz
 tinkerboard 20230724 0 Cassida_Skyy_Update.tinkerboard.20230724.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20230724.txz
 tinkerboard 20230814 0 Cassida_Skyy_Update.tinkerboard.20230814.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20230814.txz
 tinkerboard 20231024 0 Cassida_Skyy_Update.tinkerboard.20231024.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20231024.txz
-tinkerboard 20240307 0 Cassida_Skyy_Update.tinkerboard.20240307.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20240307.txz
+tinkerboard 20240309 0 Cassida_Skyy_Update.tinkerboard.20240309.txz https://CassidaPro.github.io/upgrade_files/Cassida_Skyy_Update.tinkerboard.20240309.txz
