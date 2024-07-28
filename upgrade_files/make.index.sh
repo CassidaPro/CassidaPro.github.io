@@ -2,7 +2,7 @@
 
 rm index.txt
 
-# ile name format
+# File name format
 #  Cassida_skyy_Update.platform.revision.txz
 #    or
 #  Cassida_skyy_Update.platform.revision.mod.txz
